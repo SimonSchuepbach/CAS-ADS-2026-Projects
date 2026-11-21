@@ -7,7 +7,9 @@ authors = [
     { name = "SimonSchuepbach", email = "simonschuepbach@proton.me" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "myst-parser>=5.2.0",
+]
 
 [project.optional-dependencies]
 notebooks = [
@@ -30,3 +32,8 @@ cas-ads-2026-projects = "cas_ads_2026_projects:main"
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "sphinx>=9.2.0",
+]
