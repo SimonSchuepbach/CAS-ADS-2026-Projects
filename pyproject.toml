@@ -1,0 +1,32 @@
+[project]
+name = "cas-ads-2026-projects"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "SimonSchuepbach", email = "simonschuepbach@proton.me" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.optional-dependencies]
+notebooks = [
+    "hdbscan",
+    "ipykernel",
+    "ipython",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "scipy",
+    "statsmodels",
+    "torch",
+    "umap-learn",
+]
+
+[project.scripts]
+cas-ads-2026-projects = "cas_ads_2026_projects:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
