@@ -6,6 +6,8 @@ This repository contains the module tasks and projects completed during modules 
 
 ```text
 CAS-ADS-2026-Projects/
+├── Final Project/
+│   └── Readme.md
 ├── M1/
 │   └── Readme.md
 ├── M2/
@@ -15,6 +17,10 @@ CAS-ADS-2026-Projects/
 │   ├── explore_line_profiles.ipynb
 │   └── predict_passengers_using_randomForest_and_NN.ipynb
 ├── M4/
+│   └── Readme.md
+├── M5/
+│   └── Readme.md
+├── M6/
 │   └── Readme.md
 ├── src/
 │   └── cas_ads_2026_projects/
